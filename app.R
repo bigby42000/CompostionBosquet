@@ -24,7 +24,7 @@ library(shinyjs)
 
 
 
-A <- readxl::read_xlsx("liste-essences-Tommy-V4.xlsx")
+A <- readxl::read_xlsx("/data/liste-essences-Tommy-V4.xlsx")
 
 Compoalea=function(A,n) {
   b=c()
