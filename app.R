@@ -23,8 +23,8 @@ library(shinyjs)
 
 
 
-
-A <- readxl::read_xlsx("liste-essences-Tommy-V4.xlsx")
+x <- getURL("https://github.com/bigby42000/CompostionBosquet/edit/main/data/liste-essences-Tommy-V4.xlsx")
+A <- readxl::read_xlsx(x)
 
 Compoalea=function(A,n) {
   b=c()
