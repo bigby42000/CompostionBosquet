@@ -20,12 +20,10 @@ library(xlsx)
 library(DT)
 library(shinyjqui)
 library(shinyjs)
-library(RCurl)
 
 
 
-x <- getURL("https://github.com/bigby42000/CompostionBosquet/edit/main/data/liste-essences-Tommy-V4.xlsx")
-A <- readxl::read_xlsx(text=x)
+A <- readxl::read_xlsx("liste-essences-Tommy-V4.xlsx")
 
 Compoalea=function(A,n) {
   b=c()
