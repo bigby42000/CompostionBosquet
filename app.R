@@ -20,6 +20,7 @@ library(xlsx)
 library(DT)
 library(shinyjqui)
 library(shinyjs)
+library(RCurl)
 
 
 
